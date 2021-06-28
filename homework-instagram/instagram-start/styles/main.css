@@ -5,5 +5,60 @@
 /*text grey color = #999*/
 
 body, input {
-  font-family: 'Karla', sans-serif;
+    font-family: 'Karla', sans-serif;
+  }
+  main {
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
+  .left-side {
+      /* height: 100px;
+      width: 50px; */
+      /* position: relative; */
+      /* background-color: lightgreen; */
+      display: flex;
+  }
+  .right-side {
+      /* height: 100px;
+      width: 50px; */
+      /* position: relative; */
+      /* background-color: lightblue; */
+      display: flex;
+      flex-direction: column;
+      border: 2px solid grey; 
+  }
+  
+  .form-box {
+      border: 2px;
+      border-color: #E6E6E6;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .log-in {
+      border: 2px solid grey;
+  }
+
+  .footer {
+      height: 100px;
+      width: 100px;    
+      color: #003569;
+      text-decoration-line: none;
+  }
+  footer ul {
+      display: flex;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-decoration-line: none;
+      text-decoration-color: #003569;
+  }
+  .SignUp {
+      color: #3897F0;
+  }
+  .copy {
+      color: #999;
+  }
